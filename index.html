@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TORQUEGARAGE</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="two">
+    <div>
+        <h1>RUHYAS/GARAGE</h1>
+        <h2>HONEST REPAIRS.</h2>
+        <h3>NO RUNAROUND.</h3>
+
+        <p>Servicing,diagnostics and repairs for all makes.We call you before any extra work</p>
+    <button class="book-btn" onclick="bookService()">BOOK A SERVICE</button>
+    <img src="https://images.pexels.com/photos/8478220/pexels-photo-8478220.jpeg">
+    </div>
+    <nav>
+    <a href="services">Services</a>
+    <a href="prices">Prices</a>
+    <a href="booking">Booking</a>
+</nav>
+    </section>
+
+    <section id="services" class="services">
+    <h2>WHAT WE DO</h2>
+    <div id="card servicing" class="card">
+            <h3>Full Service</h3>
+            <p>Oil, filters, brakes and a 50-point check.</p>
+    </div>
+<div id="card diagnostics" class="card">
+            <h3>Diagnostics</h3>
+            <p>Warning light on? We'll find out why.</p>
+</div>
+<div id="card Tyres$Alignment" class="card">
+            <h3>Tyres & Alignment</h3>
+            <p>Fitting, balancing and puncture repair.</p>
+</div>
+<div id="Brakes$clutch" class="card">
+            <h3>Brakes & Clutch</h3>
+            <p>Pads, discs and clutch replacement.</p>
+</div>
+    </section>
+
+    <section id="four">
+<section id="prices">
+
+    <h2>CLEAR PRICES</h2>
+
+      
+            <h3>Oil & Filter Change</h3>
+            <p class="price">KSh 3,500</p>
+
+            <h3>Full Service</h3>
+            <p class="price">KSh 8,000</p>
+
+            <h3>Diagnostic Check</h3>
+            <p class="price">KSh 2,000</p>
+      
+            <h3>Wheel Alignment</h3>
+            <p class="price">KSh 1,500</p>
+
+</section>
+    </section>
+
+    <section id="five">
+<section id="BookIn" class="section booking">
+
+    <h2>BOOK YOUR CAR IN</h2>
+        <p>Mon-Fri 7:30am - 6pm  Sat 8am -1-pm</p>
+         <p>123 Garage Street, Nairobi</p>
+        <p>0712 345 678</p>
+
+    <input type="text" id="carReg" placeholder="Enter registration number">
+
+    <button onclick="checkAvailability()">Check Availability </button>
+
+    <p id="result"></p>
+    <footer> © Torque Garage</footer>
+</footer>
+</section>
+</section>
+
+<script src="./script.js"></script>
+</body>
+</html>
